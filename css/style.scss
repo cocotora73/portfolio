@@ -93,24 +93,13 @@ a {
 .about-wrapper {
     margin-top: 220px;
 
-    .contents {
-        display: flex;
-
-        .myphoto {
-            padding-top: 60px;
-
-            img {
-                width: 250px;
-                height: 250px;
-                border-radius: 50%;
-            }
-        }
-
         .about-text {
+            .name {
+                text-align: center;
+            }
+
             font-size: 18px;
-            padding-left: 80px;
         }
-    }
 }
 
 /* skill */
@@ -255,23 +244,9 @@ footer {
     }
 
     .about-wrapper {
-        .contents {
-            display: block;
-    
-            .myphoto {
-                text-align: center;
-                padding-top: 0px;
-            }
-    
-            .about-text {
-                .name {
-                    text-align: center;
-                    margin: 0;
-                }
-
-                font-size: 18px;
-                padding: 30px;
-            }
+        .about-text {
+            font-size: 18px;
+            margin: 20px;
         }
     }
 }

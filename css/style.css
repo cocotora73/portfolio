@@ -90,20 +90,11 @@ a {
 .about-wrapper {
   margin-top: 220px;
 }
-.about-wrapper .contents {
-  display: flex;
-}
-.about-wrapper .contents .myphoto {
-  padding-top: 60px;
-}
-.about-wrapper .contents .myphoto img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-}
-.about-wrapper .contents .about-text {
+.about-wrapper .about-text {
   font-size: 18px;
-  padding-left: 80px;
+}
+.about-wrapper .about-text .name {
+  text-align: center;
 }
 
 /* skill */
@@ -225,19 +216,8 @@ footer .copyright {
   .container {
     width: 100%;
   }
-  .about-wrapper .contents {
-    display: block;
-  }
-  .about-wrapper .contents .myphoto {
-    text-align: center;
-    padding-top: 0px;
-  }
-  .about-wrapper .contents .about-text {
+  .about-wrapper .about-text {
     font-size: 18px;
-    padding: 30px;
-  }
-  .about-wrapper .contents .about-text .name {
-    text-align: center;
-    margin: 0;
+    margin: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
